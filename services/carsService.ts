@@ -1,4 +1,5 @@
-import { supabase, Car, Booking } from '@/lib/supabase';
+import { supabase } from '@/lib/supabase';
+import type { Car, Booking } from '@/types'; // Ensure Car and Booking types are imported from the correct path
 
 export const carsService = {
   async getCars(filters?: {

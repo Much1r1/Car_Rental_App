@@ -1,4 +1,5 @@
-import { supabase, SparePart, Order } from '@/lib/supabase';
+import { supabase } from '@/lib/supabase';
+import { SparePart, Order } from '@/types'; // Adjust the path to the correct location of SparePart and Order types
 
 export const sparePartsService = {
   async getSpareParts(filters?: {

@@ -64,7 +64,7 @@ export default function SignupScreen() {
           <View style={styles.logoContainer}>
             <Car size={48} color="#3B82F6" />
           </View>
-          <Text style={styles.title}>Join AutoRent Pro</Text>
+          <Text style={styles.title}>Join Ridex</Text>
           <Text style={styles.subtitle}>Create your account</Text>
         </View>
 

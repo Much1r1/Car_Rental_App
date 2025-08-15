@@ -47,7 +47,7 @@ export default function LoginScreen() {
           <View style={styles.logoContainer}>
             <Car size={48} color="#3B82F6" />
           </View>
-          <Text style={styles.title}>AutoRent Pro</Text>
+          <Text style={styles.title}>Ridex</Text>
           <Text style={styles.subtitle}>Sign in to your account</Text>
         </View>
 

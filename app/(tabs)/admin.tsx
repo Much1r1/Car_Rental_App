@@ -12,7 +12,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { router } from 'expo-router';
 import { Plus, Car, Calendar, DollarSign, MapPin, Settings } from 'lucide-react-native';
 import { carsService } from '@/services/carsService';
-import { Car as CarType, Booking } from '@/lib/supabase';
+import { Booking } from '@/lib/supabase';
 import { useAuth } from '@/contexts/AuthContext';
 
 export default function AdminScreen() {

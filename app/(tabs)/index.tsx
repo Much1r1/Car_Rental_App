@@ -14,7 +14,17 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { router } from 'expo-router';
 import { Search, Filter, MapPin, Calendar, Star } from 'lucide-react-native';
 import { carsService } from '@/services/carsService';
-import { Car } from '@/lib/supabase';
+// Define the Car type locally if not exported from '@/lib/supabase'
+type Car = {
+  id: string;
+  brand: string;
+  model: string;
+  year: number;
+  location: string;
+  price_per_day: number;
+  image_url: string;
+  status: string;
+};
 
 export default function CarsScreen() {
   const [cars, setCars] = useState<Car[]>([]);

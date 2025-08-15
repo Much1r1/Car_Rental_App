@@ -13,7 +13,7 @@ import {
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Plus, Package, DollarSign, TrendingUp, CreditCard as Edit, Trash2 } from 'lucide-react-native';
 import { sparePartsService } from '@/services/sparePartsService';
-import { SparePart, Order } from '@/lib/supabase';
+import { Order } from '@/lib/supabase';
 import { useAuth } from '@/contexts/AuthContext';
 
 export default function ManagerScreen() {
